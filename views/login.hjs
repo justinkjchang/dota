@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <p><a href="/">Home Page</a></p>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+  </head>
+  <body>
+    <h1>{{ title }}</h1>
+
+    <p>Welcome to the {{ title }} page</p>
+    
+
+    <form class="form-inline" id="loginForm" action="/login" method="post">
+        <div class="form-group">
+            <label for="email">Username: </label>
+            <input class="form-control"type="text" id="email" name="email" placeholder="username"></input>
+
+        </div>
+        <div class="form-group">
+        	<label for="password">Password:&nbsp</label>
+            <input class="form-control" type="password" id="password" name="password" placeholder="password"></input>
+        </div>
+        <br>
+        <br>
+        <button class="btn btn-default" type="submit">Login</button>
+	</form>
+  </body>
+</html>
