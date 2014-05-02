@@ -8,15 +8,15 @@
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
   </head>
   <body>
+    <p>{{info}}</p>
     <h1>{{ title }}</h1>
-
     <p>Welcome to the {{ title }} page</p>
     
 
     <form class="form-inline" id="loginForm" action="/login" method="post">
         <div class="form-group">
-            <label for="email">Username: </label>
-            <input class="form-control"type="text" id="email" name="email" placeholder="username"></input>
+            <label for="username">Username: </label>
+            <input class="form-control"type="text" id="username" name="username" placeholder="username"></input>
 
         </div>
         <div class="form-group">
